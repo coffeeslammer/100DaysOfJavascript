@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: rgb(55, 83, 152);
+    width: 400px;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    border-bottom: 2px solid white;
+    margin: 1rem .5rem .5rem .5rem;
+}
+
+button {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.subtract {
+    background-color: red;
+    color: white;
+
+}
+
+.add {
+    background-color: green;
+    color: white;
+}
+
+.reset {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.subtract,
+.reset,
+.add {
+
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
