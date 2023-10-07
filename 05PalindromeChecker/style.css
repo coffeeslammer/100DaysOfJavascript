@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    place-content: center;
+    background-color: #005490;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 600px;
+    background-color: white;
+    padding: 4rem;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    color: #ffffff;
+    background-color: purple;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(128, 0, 128, 0.677);
+}
+
+input {
+    border: none;
+    border-bottom: 3px solid burlywood;
+}
