@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    background: linear-gradient(lightblue, lightgreen);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+main {
+    background: linear-gradient(lightgreen, lightblue);
+    color: darkblue;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.509);
+}
+
+section {
+    display: grid;
+    width: 80%;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.test label {
+    margin-right: 1.5rem;
+}
+
+.test input {
+    font-size: 1.25rem;
+}
