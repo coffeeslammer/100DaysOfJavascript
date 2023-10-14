@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: lightblue;
+
+
+}
+
+.win {
+    background-color: rgb(146, 212, 146);
+}
+
+.lose {
+    background-color: lightcoral;
+}
+
+h1 {
+
+    font-size: 3rem;
+}
+
+.image-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.winner,
+.output {
+    margin-top: 4rem;
+
+    font-size: 3rem;
+}
