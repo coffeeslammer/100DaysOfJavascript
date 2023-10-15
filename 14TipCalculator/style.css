@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+p,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    background: linear-gradient(red, pink);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.tip-container {
+    background-color: rgba(0, 0, 255, 0.338);
+    padding: 3rem;
+    color: aliceblue;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px 10px rgba(118, 0, 0, 0.447);
+}
+
+fieldset {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    /* text-align: center; */
+}
+
+.btn {
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    background-color: purple;
+    color: aliceblue;
+}
